@@ -15,6 +15,7 @@ D:\ASP.Net All files\Personal websites (MVC)\My Portfolio\MyPortfolio\MyPortfoli
 D:\ASP.Net All files\Personal websites (MVC)\My Portfolio\MyPortfolio\MyPortfolio\obj\Debug\net8.0\MyPortfolio.MvcApplicationPartsAssemblyInfo.cache
 D:\ASP.Net All files\Personal websites (MVC)\My Portfolio\MyPortfolio\MyPortfolio\obj\Debug\net8.0\MyPortfolio.RazorAssemblyInfo.cache
 D:\ASP.Net All files\Personal websites (MVC)\My Portfolio\MyPortfolio\MyPortfolio\obj\Debug\net8.0\MyPortfolio.RazorAssemblyInfo.cs
+D:\ASP.Net All files\Personal websites (MVC)\My Portfolio\MyPortfolio\MyPortfolio\obj\Debug\net8.0\MyPortfolio.sourcelink.json
 D:\ASP.Net All files\Personal websites (MVC)\My Portfolio\MyPortfolio\MyPortfolio\obj\Debug\net8.0\rjimswa.dswa.cache.json
 D:\ASP.Net All files\Personal websites (MVC)\My Portfolio\MyPortfolio\MyPortfolio\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 D:\ASP.Net All files\Personal websites (MVC)\My Portfolio\MyPortfolio\MyPortfolio\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json

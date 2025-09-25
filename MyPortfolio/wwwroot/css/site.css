@@ -20,3 +20,20 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.AllPgBgColor{
+
+    background-color:black;
+/*    color:white;*/
+
+}
+
+.NavBarTextColor{
+
+    color:white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.NavBarTextColor:hover {
+        color: #00e5ff;
+}
