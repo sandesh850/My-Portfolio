@@ -3,32 +3,16 @@
   "WorkspaceRootPath": "D:\\ASP.Net All files\\Personal websites (MVC)\\My Portfolio\\MyPortfolio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{637C7153-440D-42AB-8F96-9F4CC81A0485}|MyPortfolio\\MyPortfolio.csproj|d:\\asp.net all files\\personal websites (mvc)\\my portfolio\\myportfolio\\myportfolio\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{637C7153-440D-42AB-8F96-9F4CC81A0485}|MyPortfolio\\MyPortfolio.csproj|solutionrelative:myportfolio\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{637C7153-440D-42AB-8F96-9F4CC81A0485}|MyPortfolio\\MyPortfolio.csproj|d:\\asp.net all files\\personal websites (mvc)\\my portfolio\\myportfolio\\myportfolio\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{637C7153-440D-42AB-8F96-9F4CC81A0485}|MyPortfolio\\MyPortfolio.csproj|solutionrelative:myportfolio\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{637C7153-440D-42AB-8F96-9F4CC81A0485}|MyPortfolio\\MyPortfolio.csproj|d:\\asp.net all files\\personal websites (mvc)\\my portfolio\\myportfolio\\myportfolio\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{637C7153-440D-42AB-8F96-9F4CC81A0485}|MyPortfolio\\MyPortfolio.csproj|solutionrelative:myportfolio\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{637C7153-440D-42AB-8F96-9F4CC81A0485}|MyPortfolio\\MyPortfolio.csproj|d:\\asp.net all files\\personal websites (mvc)\\my portfolio\\myportfolio\\myportfolio\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{637C7153-440D-42AB-8F96-9F4CC81A0485}|MyPortfolio\\MyPortfolio.csproj|solutionrelative:myportfolio\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{637C7153-440D-42AB-8F96-9F4CC81A0485}|MyPortfolio\\MyPortfolio.csproj|d:\\asp.net all files\\personal websites (mvc)\\my portfolio\\myportfolio\\myportfolio\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{637C7153-440D-42AB-8F96-9F4CC81A0485}|MyPortfolio\\MyPortfolio.csproj|solutionrelative:myportfolio\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{637C7153-440D-42AB-8F96-9F4CC81A0485}|MyPortfolio\\MyPortfolio.csproj|d:\\asp.net all files\\personal websites (mvc)\\my portfolio\\myportfolio\\myportfolio\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{637C7153-440D-42AB-8F96-9F4CC81A0485}|MyPortfolio\\MyPortfolio.csproj|solutionrelative:myportfolio\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{637C7153-440D-42AB-8F96-9F4CC81A0485}|MyPortfolio\\MyPortfolio.csproj|d:\\asp.net all files\\personal websites (mvc)\\my portfolio\\myportfolio\\myportfolio\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{637C7153-440D-42AB-8F96-9F4CC81A0485}|MyPortfolio\\MyPortfolio.csproj|solutionrelative:myportfolio\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{637C7153-440D-42AB-8F96-9F4CC81A0485}|MyPortfolio\\MyPortfolio.csproj|d:\\asp.net all files\\personal websites (mvc)\\my portfolio\\myportfolio\\myportfolio\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{637C7153-440D-42AB-8F96-9F4CC81A0485}|MyPortfolio\\MyPortfolio.csproj|solutionrelative:myportfolio\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,17 +22,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\ASP.Net All files\\Personal websites (MVC)\\My Portfolio\\MyPortfolio\\MyPortfolio\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "MyPortfolio\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\ASP.Net All files\\Personal websites (MVC)\\My Portfolio\\MyPortfolio\\MyPortfolio\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "MyPortfolio\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABMAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACQAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-25T07:22:40.561Z",
               "IsPinned": true,
@@ -56,13 +40,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "site.css",
               "DocumentMoniker": "D:\\ASP.Net All files\\Personal websites (MVC)\\My Portfolio\\MyPortfolio\\MyPortfolio\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "MyPortfolio\\wwwroot\\css\\site.css",
               "ToolTip": "D:\\ASP.Net All files\\Personal websites (MVC)\\My Portfolio\\MyPortfolio\\MyPortfolio\\wwwroot\\css\\site.css",
               "RelativeToolTip": "MyPortfolio\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACEAAAB5AAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAkwCkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-09-25T07:47:36.314Z",
               "IsPinned": true,
@@ -70,67 +54,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "D:\\ASP.Net All files\\Personal websites (MVC)\\My Portfolio\\MyPortfolio\\MyPortfolio\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "MyPortfolio\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "D:\\ASP.Net All files\\Personal websites (MVC)\\My Portfolio\\MyPortfolio\\MyPortfolio\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "MyPortfolio\\Views\\Home\\Privacy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-25T07:25:16.451Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\ASP.Net All files\\Personal websites (MVC)\\My Portfolio\\MyPortfolio\\MyPortfolio\\Views\\About\\Index.cshtml",
-              "RelativeDocumentMoniker": "MyPortfolio\\Views\\About\\Index.cshtml",
-              "ToolTip": "D:\\ASP.Net All files\\Personal websites (MVC)\\My Portfolio\\MyPortfolio\\MyPortfolio\\Views\\About\\Index.cshtml",
-              "RelativeToolTip": "MyPortfolio\\Views\\About\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-25T07:26:47.827Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AboutController.cs",
-              "DocumentMoniker": "D:\\ASP.Net All files\\Personal websites (MVC)\\My Portfolio\\MyPortfolio\\MyPortfolio\\Controllers\\AboutController.cs",
-              "RelativeDocumentMoniker": "MyPortfolio\\Controllers\\AboutController.cs",
-              "ToolTip": "D:\\ASP.Net All files\\Personal websites (MVC)\\My Portfolio\\MyPortfolio\\MyPortfolio\\Controllers\\AboutController.cs",
-              "RelativeToolTip": "MyPortfolio\\Controllers\\AboutController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T07:24:53.429Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\ASP.Net All files\\Personal websites (MVC)\\My Portfolio\\MyPortfolio\\MyPortfolio\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "MyPortfolio\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\ASP.Net All files\\Personal websites (MVC)\\My Portfolio\\MyPortfolio\\MyPortfolio\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "MyPortfolio\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T15:43:40.398Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\ASP.Net All files\\Personal websites (MVC)\\My Portfolio\\MyPortfolio\\MyPortfolio\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "MyPortfolio\\Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\ASP.Net All files\\Personal websites (MVC)\\My Portfolio\\MyPortfolio\\MyPortfolio\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "MyPortfolio\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-24T15:43:50.224Z",
+              "WhenOpened": "2025-09-25T08:39:34.361Z",
               "EditorCaption": ""
             }
           ]

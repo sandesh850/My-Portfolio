@@ -37,3 +37,7 @@ body {
 .NavBarTextColor:hover {
         color: #00e5ff;
 }
+
+.Myimageshadow {
+    filter: drop-shadow(5px 5px 20px rgba(0, 229, 255, 0.9));
+}
