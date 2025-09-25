@@ -28,10 +28,9 @@ body {
 
 }
 
-.NavBarTextColor{
-
-    color:white;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+.NavBarTextColor {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .NavBarTextColor:hover {
@@ -40,4 +39,27 @@ body {
 
 .Myimageshadow {
     filter: drop-shadow(5px 5px 20px rgba(0, 229, 255, 0.9));
+}
+
+.IndexPageCard{
+    
+    border:solid;
+    background-color:lightcyan;
+    border-color:lavender;
+    border-radius:25px;
+    color:black;
+
+}
+
+.IndexPageCard:hover{
+
+    filter:drop-shadow(5px 5px 10px rgba(0,229,255,0.9));
+   
+
+}
+
+.IndexPageSkillsAreaText{
+    color:#00e5ff;
+    font-weight:bold;
+    font-size:170%;
 }

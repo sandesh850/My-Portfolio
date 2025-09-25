@@ -35,8 +35,7 @@
               "ViewState": "AgIAABIAAAAAAAAAAAAAACQAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-25T07:22:40.561Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -46,7 +45,7 @@
               "RelativeDocumentMoniker": "MyPortfolio\\wwwroot\\css\\site.css",
               "ToolTip": "D:\\ASP.Net All files\\Personal websites (MVC)\\My Portfolio\\MyPortfolio\\MyPortfolio\\wwwroot\\css\\site.css",
               "RelativeToolTip": "MyPortfolio\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAkwCkAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAkwD8AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-09-25T07:47:36.314Z",
               "IsPinned": true,
@@ -60,7 +59,7 @@
               "RelativeDocumentMoniker": "MyPortfolio\\Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\ASP.Net All files\\Personal websites (MVC)\\My Portfolio\\MyPortfolio\\MyPortfolio\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "MyPortfolio\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAIwG4AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-25T08:39:34.361Z",
               "EditorCaption": ""
