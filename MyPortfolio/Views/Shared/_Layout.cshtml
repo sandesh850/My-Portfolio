@@ -17,38 +17,39 @@
 
             <div class="container">
 
+                <!-- brand -->
                 <a class="text-decoration-none" style="font-weight:bold;color:#00e5ff;font-size:120%" asp-area="" asp-controller="Home" asp-action="Index">.Ravidu Sandesh</a>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                <!--Hamburger button-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span style="background-color:#00e5ff;border-radius:5px" class="navbar-toggler-icon"></span> <!--Hamburger menu icon-->
                 </button>
 
-                <div class="align-content-end">
+                <!--My codes (I was fully customize this part)-->
+                <div class="collapse navbar-collapse" id="mainNavbar">
 
-                    <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                        <ul class="navbar-nav flex-grow-1 gap-5 ">
+                    <ul class="navbar-nav ms-auto gap-4">
 
-                            <li class="nav-item">
-                                <a class="text-decoration-none NavBarTextColor" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                            </li>
+                        <li class="nav-item">
+                            <a class="text-decoration-none NavBarTextColor" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
 
-                            <li class="nav-item">
-                                <a class="text-decoration-none NavBarTextColor" asp-area="" asp-controller="#" asp-action="#">Services</a>
-                            </li>
+                        <li class="nav-item">
+                            <a class="text-decoration-none NavBarTextColor" asp-area="" asp-controller="#" asp-action="#">Services</a>
+                        </li>
 
-                            <li class="nav-item">
-                                <a class="text-decoration-none NavBarTextColor" asp-area="" asp-controller="About" asp-action="Index">About</a>
-                            </li>
+                        <li class="nav-item">
+                            <a class="text-decoration-none NavBarTextColor" asp-area="" asp-controller="About" asp-action="Index">About</a>
+                        </li>
 
-                            <li class="nav-item">
-                                <a class="text-decoration-none NavBarTextColor" asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>
-                            </li>
+                        <li class="nav-item">
+                            <a class="text-decoration-none NavBarTextColor" asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>
+                        </li>
 
-                           
 
-                        </ul>
-                    </div>
+
+                    </ul>
                 </div>
                 
 
