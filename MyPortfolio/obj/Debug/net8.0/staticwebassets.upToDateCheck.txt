@@ -4,6 +4,7 @@ wwwroot\img\01.png
 wwwroot\img\02.png
 wwwroot\img\desktop.png
 wwwroot\img\fb.png
+wwwroot\img\layers.png
 wwwroot\img\linkedin.png
 wwwroot\img\web.png
 wwwroot\img\youtube.png

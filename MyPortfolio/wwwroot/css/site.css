@@ -74,3 +74,13 @@ body {
     transform:scale(1.05);
 }
 
+.addProjectPageImageAnimation {
+    width: 80%;
+    height: 90%;
+    transition: 1s;
+    
+}
+
+.addProjectPageImageAnimation:hover {
+        transform: scale(1.05);
+}
