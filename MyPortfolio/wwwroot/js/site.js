@@ -1,8 +1,9 @@
 ﻿
-//$(document).ready(function () {
+$(document).ready(function () {
 
-//    $('#DropdowItemClick').on( 'mouseenter',function () {
-//        $(this).trigger('click');
-//    });
+    // opening file explorer
+    $("#btnBrows").on("click", function () {
+        $("#fileInput").trigger("click");
+    });
    
-//});
+});
