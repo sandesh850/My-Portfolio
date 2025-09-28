@@ -13,8 +13,8 @@
 
             <div class="row">
 
-                <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12" style="border-style:solid;border-radius:25px;width:100%;height:70vh">
-
+                <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12" style="">
+                    <img id="imgPreview" style="border-radius:25px;width:100%;height:70vh" />
                 </div>
 
             </div>
@@ -33,7 +33,44 @@
         </div>
 
         <!--right-->
-        <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+        <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6" style="margin-top:5%">
+
+            <!--Sun row | service name-->
+            <div class="row">
+
+                <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <div>
+                        <label style="font-weight:bold;color:aqua;font-size:120%">Service Name</label>
+                    </div>
+                    <div style="padding-top:2%">
+                        <input type="text" class="form-control" placeholder="Service Name" />
+                    </div>
+                </div>
+
+            </div>
+
+            <!--Sun row | Description-->
+            <div class="row" style="padding-top:4%">
+
+                <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <div>
+                        <label style="font-weight:bold;color:aqua;font-size:120%">Description</label>
+                    </div>
+                    <div style="padding-top:2%">
+                        <textarea class="form-control" rows="5" style="resize:none" placeholder="Description"></textarea>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--btn save-->
+            <div class="row" style="padding-top:3%">
+                <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <div>
+                        <button type="submit" style="font-weight:bold;font-size:150%;width:100%;background-color:aqua;border-radius:25px">Save</button>
+                    </div>
+                </div>
+            </div>
 
         </div>
 
