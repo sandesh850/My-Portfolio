@@ -84,3 +84,46 @@ body {
 .addProjectPageImageAnimation:hover {
         transform: scale(1.05);
 }
+
+/*Login page*/
+.Text{
+    color:aqua;
+    font-size:120%;
+    font-weight:bold
+}
+
+.brd {
+    border-style: solid;
+    border-radius: 25px;
+    width: 50%;
+
+    box-shadow: 10px 10px 60px aqua,
+                -5px -20px 50px aqua;
+   
+    transition:1s;
+}
+
+.brd:hover {
+   transform: scale(1.02);
+}
+
+@media (max-width:321px){
+    .brd{
+        width:100%;
+        margin-top:5%
+    }
+}
+
+@media (max-width:376px) {
+    .brd {
+        width: 100%;
+        margin-top: 5%
+    }
+}
+
+@media (max-width:426px) {
+    .brd {
+        width: 100%;
+        margin-top: 5%
+    }
+}
