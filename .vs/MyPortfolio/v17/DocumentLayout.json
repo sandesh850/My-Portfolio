@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "D:\\ASP.Net All files\\Personal websites (MVC)\\My Portfolio\\MyPortfolio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{637C7153-440D-42AB-8F96-9F4CC81A0485}|MyPortfolio\\MyPortfolio.csproj|d:\\asp.net all files\\personal websites (mvc)\\my portfolio\\myportfolio\\myportfolio\\views\\addlogin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{637C7153-440D-42AB-8F96-9F4CC81A0485}|MyPortfolio\\MyPortfolio.csproj|solutionrelative:myportfolio\\views\\addlogin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{637C7153-440D-42AB-8F96-9F4CC81A0485}|MyPortfolio\\MyPortfolio.csproj|d:\\asp.net all files\\personal websites (mvc)\\my portfolio\\myportfolio\\myportfolio\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{637C7153-440D-42AB-8F96-9F4CC81A0485}|MyPortfolio\\MyPortfolio.csproj|solutionrelative:myportfolio\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -26,17 +22,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\ASP.Net All files\\Personal websites (MVC)\\My Portfolio\\MyPortfolio\\MyPortfolio\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "MyPortfolio\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\ASP.Net All files\\Personal websites (MVC)\\My Portfolio\\MyPortfolio\\MyPortfolio\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "MyPortfolio\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAAAFUAAACCAAAAAAAAAA==",
+              "ViewState": "AgIAAPUAAAAAAAAAAAAgwA4BAACAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-25T07:22:40.561Z",
               "IsPinned": true,
@@ -44,7 +40,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "site.css",
               "DocumentMoniker": "D:\\ASP.Net All files\\Personal websites (MVC)\\My Portfolio\\MyPortfolio\\MyPortfolio\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "MyPortfolio\\wwwroot\\css\\site.css",
@@ -53,25 +49,11 @@
               "ViewState": "AgIAAGwAAAAAAAAAAAAAAGsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-09-25T07:47:36.314Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\ASP.Net All files\\Personal websites (MVC)\\My Portfolio\\MyPortfolio\\MyPortfolio\\Views\\AddLogin\\Index.cshtml",
-              "RelativeDocumentMoniker": "MyPortfolio\\Views\\AddLogin\\Index.cshtml",
-              "ToolTip": "D:\\ASP.Net All files\\Personal websites (MVC)\\My Portfolio\\MyPortfolio\\MyPortfolio\\Views\\AddLogin\\Index.cshtml",
-              "RelativeToolTip": "MyPortfolio\\Views\\AddLogin\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-28T10:53:21.724Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "site.js",
               "DocumentMoniker": "D:\\ASP.Net All files\\Personal websites (MVC)\\My Portfolio\\MyPortfolio\\MyPortfolio\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "MyPortfolio\\wwwroot\\js\\site.js",
@@ -79,8 +61,7 @@
               "RelativeToolTip": "MyPortfolio\\wwwroot\\js\\site.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-09-27T07:49:04.957Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-27T07:49:04.957Z"
             }
           ]
         }
