@@ -1,6 +1,6 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using MyPortfolio.Models;
+using MyPortfolio.Models.ViewModels;  
 
 namespace MyPortfolio.Controllers
 {
