@@ -14,7 +14,9 @@ namespace MyPortfolio.Controllers
         [HttpPost]
         public IActionResult Index(LoginViewModel Model)
         {
-            if(Model == null)
+
+
+            if (Model == null)
             {
                 return View("Error");
             }
@@ -24,13 +26,13 @@ namespace MyPortfolio.Controllers
                 // Clear the previous ModelState for TbxPassword
                 ModelState.Remove("TbxUserName"); // removing specific ModelState
 
-               // Removing all ModelStates
-               //ModelState.Clear();
+                // Removing all ModelStates
+                //ModelState.Clear();
 
                 return View(Model);
             }
 
-            
+
         }
     }
 }
