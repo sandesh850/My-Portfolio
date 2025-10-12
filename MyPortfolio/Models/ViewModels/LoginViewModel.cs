@@ -1,8 +1,13 @@
-﻿namespace MyPortfolio.Models.ViewModels
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace MyPortfolio.Models.ViewModels
 {
     public class LoginViewModel
     {
-        public string TbxUserName { get; set; }
-        public string TbxPassword { get; set; }
+        [Required(ErrorMessage ="Please Enter the Username")]
+        public string? TbxUserName { get; set; }
+
+        [Required(ErrorMessage ="Please Enter the Password")]
+        public string? TbxPassword { get; set; }
     }
 }

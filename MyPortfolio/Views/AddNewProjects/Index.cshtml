@@ -1,64 +1,69 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
+
 }
 
-<div class="container">
+<form asp-action="Index" method="post">
 
-    <!--Main row-->
-    <div class="row">
+    <div class="container">
 
-        <!--left side-->
-        <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6" style="margin-top:3%">
+        <!--Main row-->
+        <div class="row">
 
-            <div class="d-flex justify-content-center">
-                <img src="~/img/layers.png" class="addProjectPageImageAnimation" />
+            <!--left side-->
+            <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6" style="margin-top:3%">
+
+                <div class="d-flex justify-content-center">
+                    <img src="~/img/layers.png" class="addProjectPageImageAnimation" />
+                </div>
+
             </div>
-           
+
+            <!--right side-->
+            <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6" style="margin-top:5%">
+
+                <!--Sub row of right side | project name-->
+                <div class="row">
+
+                    <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                        <div>
+                            <label style="font-size:150%;color:aqua;font-weight:bold">Project Name</label>
+                        </div>
+                        <div style="padding-top:1%">
+                            <input type="text" class="form-control" placeholder="Project Name" />
+                        </div>
+                    </div>
+                </div>
+
+                <!--Sub row of right side | descriptions-->
+                <div class="row" style="padding-top:2%">
+
+                    <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                        <div>
+                            <label style="font-size:150%;color:aqua;font-weight:bold">Description</label>
+                        </div>
+                        <div style="padding-top:1%">
+                            <textarea type="text" rows="5" class="form-control" style="resize:none" placeholder="Description"></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Sub row of right side | btn add-->
+                <div class="row" style="padding-top:2%">
+
+                    <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+
+                        <button type="submit" class="btn btn-success fw-bold"
+                                style="background-color:aqua;color:black;font-size:160%;width:100%">
+                            Add
+                        </button>
+
+                    </div>
+                </div>
+
+            </div>
         </div>
 
-        <!--right side-->
-        <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6" style="margin-top:5%">
-
-           <!--Sub row of right side | project name-->
-           <div class="row">
-
-                <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                    <div>
-                        <label style="font-size:150%;color:aqua;font-weight:bold">Project Name</label>
-                    </div>
-                    <div style="padding-top:1%">
-                        <input type="text" class="form-control" placeholder="Project Name" />
-                    </div>
-                </div>
-           </div>
-
-            <!--Sub row of right side | descriptions-->
-            <div class="row" style="padding-top:2%">
-
-                <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                    <div>
-                        <label style="font-size:150%;color:aqua;font-weight:bold">Description</label>
-                    </div>
-                    <div style="padding-top:1%">
-                        <textarea type="text" rows="5" class="form-control" style="resize:none" placeholder="Description"></textarea>
-                    </div>
-                </div>
-            </div>
-
-            <!--Sub row of right side | btn add-->
-            <div class="row" style="padding-top:2%">
-
-                <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-
-                   <button type="submit" class="btn btn-success fw-bold" 
-                   style="background-color:aqua;color:black;font-size:160%;width:100%">Add</button>
-
-                </div>
-            </div>
-
-        </div>
     </div>
 
-</div>
+</form>
+

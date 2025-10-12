@@ -1,100 +1,105 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
+    @model MyPortfolio.Models.ViewModels.AddLoginViewModel;
 }
 
-<div class="container">
+<form asp-action="Index" method="post">
+    <div class="container">
 
-    <!--main row-->
-    <div class="row d-flex justify-content-center" style="margin-top:4%">
+        <!--main row-->
+        <div class="row d-flex justify-content-center" style="margin-top:4%">
 
-        <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 brd" style="">
+            <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 brd" style="">
 
-            <!--sub row | login label-->
-            <div class="row" style="padding-top:3%">
+                <!--sub row | login label-->
+                <div class="row" style="padding-top:3%">
 
-                <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 text-center">
-                    <label style="font-weight:bold;color:aqua;font-size:200%">Add Login</label>
-                </div>
-
-            </div>
-
-            <!--Sub row | hr line-->
-            <div class="row">
-                <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                    <hr style="background-color:aqua" />
-                </div>
-            </div>
-
-            <!--sub row | username-->
-            <div class="row">
-                <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-
-                    <!--lblUsername-->
-                    <div>
-                        <label class="Text">Username</label>
+                    <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 text-center">
+                        <label style="font-weight:bold;color:aqua;font-size:200%">Add Login</label>
                     </div>
 
-                    <!--tbxUsername-->
-                    <div style="padding-top:2%">
-                        <input type="text" class="form-control" style="width:100%" placeholder="Username" />
+                </div>
+
+                <!--Sub row | hr line-->
+                <div class="row">
+                    <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                        <hr style="background-color:aqua" />
                     </div>
                 </div>
-            </div>
 
-            <!--sub row | password-->
-            <div class="row" style="padding-top:4%;padding-bottom:3%">
-                <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                <!--sub row | username-->
+                <div class="row">
+                    <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
 
-                    <!--lblPassword-->
-                    <div>
-                        <label class="Text">Password</label>
-                    </div>
+                        <!--lblUsername-->
+                        <div>
+                            <label class="Text">Username</label>
+                        </div>
 
-                    <!--tbxPassword-->
-                    <div style="padding-top:2%">
-                        <input type="text" style="width:100%" class="form-control" placeholder="Password" />
-                    </div>
-                </div>
-            </div>
-
-            <!--sub row | confirm password-->
-            <div class="row" style="padding-top:4%;padding-bottom:3%">
-                <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-
-                    <!--lblPassword-->
-                    <div>
-                        <label class="Text">Confirm Password</label>
-                    </div>
-
-                    <!--tbxPassword-->
-                    <div style="padding-top:2%">
-                        <input type="text" style="width:100%" class="form-control" placeholder="Confirm Password" />
+                        <!--tbxUsername-->
+                        <div style="padding-top:2%">
+                            <input type="text" class="form-control" asp-for="TbxNewUserName" style="width:100%" placeholder="Username" />
+                            <span asp-validation-for="TbxNewUserName" class="text-danger"></span>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!--Sub row | hr line-->
-            <div class="row">
-                <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                    <hr style="background-color:aqua" />
+                <!--sub row | password-->
+                <div class="row" style="padding-top:4%;padding-bottom:3%">
+                    <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+
+                        <!--lblPassword-->
+                        <div>
+                            <label class="Text">Password</label>
+                        </div>
+
+                        <!--tbxPassword-->
+                        <div style="padding-top:2%">
+                            <input type="text" asp-for="TbxNewPassword" style="width:100%" class="form-control" placeholder="Password" />
+                            <span asp-validation-for="TbxNewPassword" class="text-danger"></span>
+                        </div>
+                    </div>
                 </div>
-            </div>
 
-            <!--Sub row | btnLogin-->
-            <div class="row" style="padding-bottom:3%">
-                <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                    <button type="submit" class="btn btn-success"
-                            style="width:100%;color:black;border-radius:25px;background-color:aqua;font-size:120%;font-weight:bold">
-                        Save
-                    </button>
+                <!--sub row | confirm password-->
+                <div class="row" style="padding-top:4%;padding-bottom:3%">
+                    <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+
+                        <!--lblPassword-->
+                        <div>
+                            <label class="Text">Confirm Password</label>
+                        </div>
+
+                        <!--tbxConfirmPassword-->
+                        <div style="padding-top:2%">
+                            <input type="text" style="width:100%" asp-for="TbxConfirmPassword" class="form-control" placeholder="Confirm Password" />
+                            <span asp-validation-for="TbxConfirmPassword" class="text-danger"></span>
+                        </div>
+                    </div>
                 </div>
-            </div>
 
+                <!--Sub row | hr line-->
+                <div class="row">
+                    <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                        <hr style="background-color:aqua" />
+                    </div>
+                </div>
+
+                <!--Sub row | btnLogin-->
+                <div class="row" style="padding-bottom:3%">
+                    <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                        <button type="submit" class="btn btn-success"
+                                style="width:100%;color:black;border-radius:25px;background-color:aqua;font-size:120%;font-weight:bold">
+                            Save
+                        </button>
+                        <span asp-validation-for="MsgPasswordChecking" class="text-danger"></span>
+                    </div>
+                </div>
+
+
+            </div>
 
         </div>
 
     </div>
+</form>
 
-</div>

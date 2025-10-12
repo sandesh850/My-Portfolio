@@ -39,6 +39,7 @@
                         <!--tbxUsername-->
                         <div style="padding-top:2%">
                             <input type="text" class="form-control" asp-for="TbxUserName" style="width:100%" placeholder="Username" />
+                            <span asp-validation-for="TbxUserName" class="text-danger"></span>
                         </div>
                     </div>
                 </div>
@@ -55,6 +56,7 @@
                         <!--tbxPassword-->
                         <div style="padding-top:2%">
                             <input type="text" style="width:100%" asp-for="TbxPassword" class="form-control" placeholder="Password" />
+                            <span asp-validation-for="TbxPassword" class="text-danger"></span>
                         </div>
                     </div>
                 </div>
