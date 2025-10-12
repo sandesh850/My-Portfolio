@@ -1,0 +1,129 @@
+﻿
+@{
+    @model MyPortfolio.Models.ViewModels.ExistingAndNewLoginViewModel
+}
+
+@* <label asp-for="Message">Message</label> *@
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <span asp-validation-for="Message" style="font-size:150%" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <span asp-validation-for="SuccessMessage" style="font-size:150%;color:aqua" class="fw-bold"></span>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <a class="btn btn-primary" style="text-decoration:none" data-bs-toggle="modal" data-bs-target="#newLogins">Add New Login</a>
+        </div>
+    </div>
+
+</div>
+
+
+<!--Modal | add new logins-->
+<div class="modal fade" id="newLogins" style="margin-top:8%" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content" style="background-color:aliceblue;">
+            <div class="modal-header" style="display:flex;justify-content:center">
+                <h1 class="modal-title " id="exampleModalLabel" style="font-weight:bold;font-size:200%">New Login Details</h1>
+                @* <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> *@
+            </div>
+
+            <div class="modal-body">
+                <form>
+
+                    <div class="container">
+
+                        <!--Current username-->
+                        <div class=" row">
+
+                            <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+
+                                <div>
+                                    <label style="font-size:100%;font-weight:bold">New Username</label>
+                                </div>
+
+                                <div>
+                                    <input type="text" placeholder="New Username" class="form-control" style="width:100%" />
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!--Current password-->
+                        <div class=" row" style="margin-top:3%">
+
+                            <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+
+                                <div>
+                                    <label style="font-size:100%;font-weight:bold">New Password</label>
+                                </div>
+
+                                <div>
+                                    <input type="text" class="form-control" placeholder="New Password" style="width:100%" />
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!--Confirm password-->
+                        <div class=" row" style="margin-top:3%">
+
+                            <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+
+                                <div>
+                                    <label style="font-size:100%;font-weight:bold">Confirm Password</label>
+                                </div>
+
+                                <div>
+                                    <input type="text" class="form-control" placeholder="Confirm Password" style="width:100%" />
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!--hr line-->
+                        <div class="row" style="padding-top:5%">
+
+                            <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                                <hr style="background-color:black" />
+
+                            </div>
+
+                        </div>
+
+                        <!--btns-->
+                        <div class="row" style="padding-top:5%">
+
+                            <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 d-flex justify-content-end">
+                                <div>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal" style="font-weight:bold">Close</button>
+                                    <a class="btn btn-warning" style="text-decoration:none;font-weight:bold;color:whitesmoke;">Update</a>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                </form>
+            </div>
+            @*  <div class="modal-footer">
+                    <button type="button" >Close</button>
+                    <button type="button" class="btn btn-primary">OK</button>
+                </div> *@
+
+        </div>
+    </div>
+</div>

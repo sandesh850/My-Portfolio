@@ -1,0 +1,91 @@
+﻿
+@{
+    @model MyPortfolio.Models.ViewModels.ExistingAndNewLoginViewModel
+}
+
+<!--Modal | current logins-->
+<div class="modal fade" id="exampleModal" style="margin-top:8%" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content" style="background-color:aliceblue;">
+            <div class="modal-header" style="display:flex;justify-content:center">
+                <h1 class="modal-title " id="exampleModalLabel" style="font-weight:bold;font-size:200%">Update Login Details</h1>
+                @* <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> *@
+            </div>
+
+            <div class="modal-body">
+               
+                <form asp-controller="UpdateLogin" asp-action="Index" method="post">
+
+                    <div class="container">
+
+                        <!--Current username-->
+                        <div class=" row">
+
+                            <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+
+                                <div>
+                                    <label style="font-size:100%;font-weight:bold">Current Username</label>
+                                </div>
+
+                                <div>
+                                    <input asp-for="current_username" type="text" placeholder="Current Username" class="form-control" style="width:100%" />
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!--Current password-->
+                        <div class=" row" style="margin-top:3%">
+
+                            <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+
+                                <div>
+                                    <label style="font-size:100%;font-weight:bold">Current Password</label>
+                                </div>
+
+                                <div>
+                                    <input asp-for="current_password" type="text" class="form-control" placeholder="Current Password" style="width:100%" />
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!--hr line-->
+                        <div class="row" style="padding-top:5%">
+
+                            <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                                <hr style="background-color:black" />
+
+                            </div>
+
+                        </div>
+
+                        <!--btns-->
+                        <div class="row" style="padding-top:5%">
+
+                            <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 d-flex justify-content-end">
+                                <div>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal" style="font-weight:bold">Close</button>
+                                    <button type="submit" class="btn btn-primary" style="text-decoration:none;font-weight:bold">
+                                        OK
+                                    </button>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                </form>
+            </div>
+            @*  <div class="modal-footer">
+                    <button type="button" >Close</button>
+                    <button type="button" class="btn btn-primary">OK</button>
+                </div> *@
+
+        </div>
+    </div>
+</div>

@@ -1,5 +1,5 @@
 ﻿@{
-
+    @model MyPortfolio.Models.ViewModels.AddNewProjectsViewModel;
 }
 
 <form asp-action="Index" method="post">
@@ -29,7 +29,8 @@
                             <label style="font-size:150%;color:aqua;font-weight:bold">Project Name</label>
                         </div>
                         <div style="padding-top:1%">
-                            <input type="text" class="form-control" placeholder="Project Name" />
+                            <input type="text" class="form-control" asp-for="TbxProjectName" placeholder="Project Name" />
+                            <span asp-validation-for="TbxProjectName" class="text-danger"></span>
                         </div>
                     </div>
                 </div>
@@ -42,7 +43,8 @@
                             <label style="font-size:150%;color:aqua;font-weight:bold">Description</label>
                         </div>
                         <div style="padding-top:1%">
-                            <textarea type="text" rows="5" class="form-control" style="resize:none" placeholder="Description"></textarea>
+                            <textarea type="text" rows="5" asp-for="TbxDescription" class="form-control" style="resize:none" placeholder="Description"></textarea>
+                            <span asp-validation-for="TbxDescription" class="text-danger"></span>
                         </div>
                     </div>
                 </div>
