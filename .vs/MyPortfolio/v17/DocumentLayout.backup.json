@@ -3,36 +3,20 @@
   "WorkspaceRootPath": "D:\\ASP.Net All files\\Personal websites (MVC)\\My Portfolio\\MyPortfolio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{637C7153-440D-42AB-8F96-9F4CC81A0485}|MyPortfolio\\MyPortfolio.csproj|d:\\asp.net all files\\personal websites (mvc)\\my portfolio\\myportfolio\\myportfolio\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{637C7153-440D-42AB-8F96-9F4CC81A0485}|MyPortfolio\\MyPortfolio.csproj|solutionrelative:myportfolio\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{637C7153-440D-42AB-8F96-9F4CC81A0485}|MyPortfolio\\MyPortfolio.csproj|d:\\asp.net all files\\personal websites (mvc)\\my portfolio\\myportfolio\\myportfolio\\views\\shared\\_loginmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{637C7153-440D-42AB-8F96-9F4CC81A0485}|MyPortfolio\\MyPortfolio.csproj|solutionrelative:myportfolio\\views\\shared\\_loginmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{637C7153-440D-42AB-8F96-9F4CC81A0485}|MyPortfolio\\MyPortfolio.csproj|d:\\asp.net all files\\personal websites (mvc)\\my portfolio\\myportfolio\\myportfolio\\models\\viewmodels\\existingandnewloginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{637C7153-440D-42AB-8F96-9F4CC81A0485}|MyPortfolio\\MyPortfolio.csproj|solutionrelative:myportfolio\\models\\viewmodels\\existingandnewloginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{637C7153-440D-42AB-8F96-9F4CC81A0485}|MyPortfolio\\MyPortfolio.csproj|d:\\asp.net all files\\personal websites (mvc)\\my portfolio\\myportfolio\\myportfolio\\views\\changedlogin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{637C7153-440D-42AB-8F96-9F4CC81A0485}|MyPortfolio\\MyPortfolio.csproj|solutionrelative:myportfolio\\views\\changedlogin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{637C7153-440D-42AB-8F96-9F4CC81A0485}|MyPortfolio\\MyPortfolio.csproj|d:\\asp.net all files\\personal websites (mvc)\\my portfolio\\myportfolio\\myportfolio\\views\\updatelogin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{637C7153-440D-42AB-8F96-9F4CC81A0485}|MyPortfolio\\MyPortfolio.csproj|solutionrelative:myportfolio\\views\\updatelogin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{637C7153-440D-42AB-8F96-9F4CC81A0485}|MyPortfolio\\MyPortfolio.csproj|d:\\asp.net all files\\personal websites (mvc)\\my portfolio\\myportfolio\\myportfolio\\controllers\\updatelogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{637C7153-440D-42AB-8F96-9F4CC81A0485}|MyPortfolio\\MyPortfolio.csproj|solutionrelative:myportfolio\\controllers\\updatelogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{637C7153-440D-42AB-8F96-9F4CC81A0485}|MyPortfolio\\MyPortfolio.csproj|d:\\asp.net all files\\personal websites (mvc)\\my portfolio\\myportfolio\\myportfolio\\models\\viewmodels\\changeloginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{637C7153-440D-42AB-8F96-9F4CC81A0485}|MyPortfolio\\MyPortfolio.csproj|solutionrelative:myportfolio\\models\\viewmodels\\changeloginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{637C7153-440D-42AB-8F96-9F4CC81A0485}|MyPortfolio\\MyPortfolio.csproj|d:\\asp.net all files\\personal websites (mvc)\\my portfolio\\myportfolio\\myportfolio\\views\\addnewservices\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{637C7153-440D-42AB-8F96-9F4CC81A0485}|MyPortfolio\\MyPortfolio.csproj|solutionrelative:myportfolio\\views\\addnewservices\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{637C7153-440D-42AB-8F96-9F4CC81A0485}|MyPortfolio\\MyPortfolio.csproj|d:\\asp.net all files\\personal websites (mvc)\\my portfolio\\myportfolio\\myportfolio\\controllers\\addnewservicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{637C7153-440D-42AB-8F96-9F4CC81A0485}|MyPortfolio\\MyPortfolio.csproj|solutionrelative:myportfolio\\controllers\\addnewservicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{637C7153-440D-42AB-8F96-9F4CC81A0485}|MyPortfolio\\MyPortfolio.csproj|d:\\asp.net all files\\personal websites (mvc)\\my portfolio\\myportfolio\\myportfolio\\models\\viewmodels\\addnewservicesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{637C7153-440D-42AB-8F96-9F4CC81A0485}|MyPortfolio\\MyPortfolio.csproj|solutionrelative:myportfolio\\models\\viewmodels\\addnewservicesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{637C7153-440D-42AB-8F96-9F4CC81A0485}|MyPortfolio\\MyPortfolio.csproj|d:\\asp.net all files\\personal websites (mvc)\\my portfolio\\myportfolio\\myportfolio\\controllers\\changedlogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{637C7153-440D-42AB-8F96-9F4CC81A0485}|MyPortfolio\\MyPortfolio.csproj|solutionrelative:myportfolio\\controllers\\changedlogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,110 +26,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_LoginModal.cshtml",
-              "DocumentMoniker": "D:\\ASP.Net All files\\Personal websites (MVC)\\My Portfolio\\MyPortfolio\\MyPortfolio\\Views\\Shared\\_LoginModal.cshtml",
-              "RelativeDocumentMoniker": "MyPortfolio\\Views\\Shared\\_LoginModal.cshtml",
-              "ToolTip": "D:\\ASP.Net All files\\Personal websites (MVC)\\My Portfolio\\MyPortfolio\\MyPortfolio\\Views\\Shared\\_LoginModal.cshtml",
-              "RelativeToolTip": "MyPortfolio\\Views\\Shared\\_LoginModal.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ASP.Net All files\\Personal websites (MVC)\\My Portfolio\\MyPortfolio\\MyPortfolio\\Views\\ChangedLogin\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyPortfolio\\Views\\ChangedLogin\\Index.cshtml",
+              "ToolTip": "D:\\ASP.Net All files\\Personal websites (MVC)\\My Portfolio\\MyPortfolio\\MyPortfolio\\Views\\ChangedLogin\\Index.cshtml",
+              "RelativeToolTip": "MyPortfolio\\Views\\ChangedLogin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-12T14:46:23.045Z",
+              "WhenOpened": "2025-10-13T04:02:38.558Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ExistingAndNewLoginViewModel.cs",
-              "DocumentMoniker": "D:\\ASP.Net All files\\Personal websites (MVC)\\My Portfolio\\MyPortfolio\\MyPortfolio\\Models\\ViewModels\\ExistingAndNewLoginViewModel.cs",
-              "RelativeDocumentMoniker": "MyPortfolio\\Models\\ViewModels\\ExistingAndNewLoginViewModel.cs",
-              "ToolTip": "D:\\ASP.Net All files\\Personal websites (MVC)\\My Portfolio\\MyPortfolio\\MyPortfolio\\Models\\ViewModels\\ExistingAndNewLoginViewModel.cs",
-              "RelativeToolTip": "MyPortfolio\\Models\\ViewModels\\ExistingAndNewLoginViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T14:07:38.655Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\ASP.Net All files\\Personal websites (MVC)\\My Portfolio\\MyPortfolio\\MyPortfolio\\Views\\UpdateLogin\\Index.cshtml",
               "RelativeDocumentMoniker": "MyPortfolio\\Views\\UpdateLogin\\Index.cshtml",
               "ToolTip": "D:\\ASP.Net All files\\Personal websites (MVC)\\My Portfolio\\MyPortfolio\\MyPortfolio\\Views\\UpdateLogin\\Index.cshtml",
               "RelativeToolTip": "MyPortfolio\\Views\\UpdateLogin\\Index.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAswBcAAAB2AAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFYAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-12T13:32:01.058Z",
+              "WhenOpened": "2025-10-13T04:28:07.19Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UpdateLoginController.cs",
-              "DocumentMoniker": "D:\\ASP.Net All files\\Personal websites (MVC)\\My Portfolio\\MyPortfolio\\MyPortfolio\\Controllers\\UpdateLoginController.cs",
-              "RelativeDocumentMoniker": "MyPortfolio\\Controllers\\UpdateLoginController.cs",
-              "ToolTip": "D:\\ASP.Net All files\\Personal websites (MVC)\\My Portfolio\\MyPortfolio\\MyPortfolio\\Controllers\\UpdateLoginController.cs",
-              "RelativeToolTip": "MyPortfolio\\Controllers\\UpdateLoginController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBYAAABJAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ChangeLoginViewModel.cs",
+              "DocumentMoniker": "D:\\ASP.Net All files\\Personal websites (MVC)\\My Portfolio\\MyPortfolio\\MyPortfolio\\Models\\ViewModels\\ChangeLoginViewModel.cs",
+              "RelativeDocumentMoniker": "MyPortfolio\\Models\\ViewModels\\ChangeLoginViewModel.cs",
+              "ToolTip": "D:\\ASP.Net All files\\Personal websites (MVC)\\My Portfolio\\MyPortfolio\\MyPortfolio\\Models\\ViewModels\\ChangeLoginViewModel.cs",
+              "RelativeToolTip": "MyPortfolio\\Models\\ViewModels\\ChangeLoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T13:21:16.032Z",
+              "WhenOpened": "2025-10-13T04:12:25.648Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\ASP.Net All files\\Personal websites (MVC)\\My Portfolio\\MyPortfolio\\MyPortfolio\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "MyPortfolio\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\ASP.Net All files\\Personal websites (MVC)\\My Portfolio\\MyPortfolio\\MyPortfolio\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "MyPortfolio\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAAAFsAAAC4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-12T13:06:37.864Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AddNewServicesController.cs",
-              "DocumentMoniker": "D:\\ASP.Net All files\\Personal websites (MVC)\\My Portfolio\\MyPortfolio\\MyPortfolio\\Controllers\\AddNewServicesController.cs",
-              "RelativeDocumentMoniker": "MyPortfolio\\Controllers\\AddNewServicesController.cs",
-              "ToolTip": "D:\\ASP.Net All files\\Personal websites (MVC)\\My Portfolio\\MyPortfolio\\MyPortfolio\\Controllers\\AddNewServicesController.cs",
-              "RelativeToolTip": "MyPortfolio\\Controllers\\AddNewServicesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ChangedLoginController.cs",
+              "DocumentMoniker": "D:\\ASP.Net All files\\Personal websites (MVC)\\My Portfolio\\MyPortfolio\\MyPortfolio\\Controllers\\ChangedLoginController.cs",
+              "RelativeDocumentMoniker": "MyPortfolio\\Controllers\\ChangedLoginController.cs",
+              "ToolTip": "D:\\ASP.Net All files\\Personal websites (MVC)\\My Portfolio\\MyPortfolio\\MyPortfolio\\Controllers\\ChangedLoginController.cs",
+              "RelativeToolTip": "MyPortfolio\\Controllers\\ChangedLoginController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA/wCAAAABfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T12:28:17.226Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AddNewServicesViewModel.cs",
-              "DocumentMoniker": "D:\\ASP.Net All files\\Personal websites (MVC)\\My Portfolio\\MyPortfolio\\MyPortfolio\\Models\\ViewModels\\AddNewServicesViewModel.cs",
-              "RelativeDocumentMoniker": "MyPortfolio\\Models\\ViewModels\\AddNewServicesViewModel.cs",
-              "ToolTip": "D:\\ASP.Net All files\\Personal websites (MVC)\\My Portfolio\\MyPortfolio\\MyPortfolio\\Models\\ViewModels\\AddNewServicesViewModel.cs",
-              "RelativeToolTip": "MyPortfolio\\Models\\ViewModels\\AddNewServicesViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T12:25:37.687Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\ASP.Net All files\\Personal websites (MVC)\\My Portfolio\\MyPortfolio\\MyPortfolio\\Views\\AddNewServices\\Index.cshtml",
-              "RelativeDocumentMoniker": "MyPortfolio\\Views\\AddNewServices\\Index.cshtml",
-              "ToolTip": "D:\\ASP.Net All files\\Personal websites (MVC)\\My Portfolio\\MyPortfolio\\MyPortfolio\\Views\\AddNewServices\\Index.cshtml",
-              "RelativeToolTip": "MyPortfolio\\Views\\AddNewServices\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-12T12:24:43.809Z",
+              "WhenOpened": "2025-10-13T04:01:58.546Z",
               "EditorCaption": ""
             }
           ]

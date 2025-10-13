@@ -1,6 +1,7 @@
 ﻿
 @{
     @model MyPortfolio.Models.ViewModels.ExistingAndNewLoginViewModel
+    
 }
 
 @* <label asp-for="Message">Message</label> *@
@@ -27,7 +28,6 @@
 
 </div>
 
-
 <!--Modal | add new logins-->
 <div class="modal fade" id="newLogins" style="margin-top:8%" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -38,11 +38,11 @@
             </div>
 
             <div class="modal-body">
-                <form>
+                <form asp-controller="ChangedLogin" method="post">
 
                     <div class="container">
 
-                        <!--Current username-->
+                        <!--change username-->
                         <div class=" row">
 
                             <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
@@ -52,13 +52,13 @@
                                 </div>
 
                                 <div>
-                                    <input type="text" placeholder="New Username" class="form-control" style="width:100%" />
+                                    <input type="text" name="tbxChangeUsername"  placeholder="New Username" class="form-control" style="width:100%" />
                                 </div>
 
                             </div>
                         </div>
 
-                        <!--Current password-->
+                        <!--Change password-->
                         <div class=" row" style="margin-top:3%">
 
                             <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
@@ -68,7 +68,7 @@
                                 </div>
 
                                 <div>
-                                    <input type="text" class="form-control" placeholder="New Password" style="width:100%" />
+                                    <input type="text" class="form-control" name="tbxchangePassword" placeholder="New Password" style="width:100%" />
                                 </div>
 
                             </div>
@@ -84,7 +84,7 @@
                                 </div>
 
                                 <div>
-                                    <input type="text" class="form-control" placeholder="Confirm Password" style="width:100%" />
+                                    <input type="text" name="tbxCmonfirmPW" class="form-control" placeholder="Confirm Password" style="width:100%" />
                                 </div>
 
                             </div>
@@ -106,7 +106,7 @@
                             <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 d-flex justify-content-end">
                                 <div>
                                     <button type="button" class="btn btn-danger" data-bs-dismiss="modal" style="font-weight:bold">Close</button>
-                                    <a class="btn btn-warning" style="text-decoration:none;font-weight:bold;color:whitesmoke;">Update</a>
+                                    <button type="submit" class="btn btn-warning" style="text-decoration:none;font-weight:bold;color:whitesmoke;">Update</button>
                                 </div>
 
                             </div>
@@ -127,3 +127,4 @@
         </div>
     </div>
 </div>
+

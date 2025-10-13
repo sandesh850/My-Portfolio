@@ -20,7 +20,7 @@ namespace MyPortfolio.Controllers
             }
             else
             {
-                ModelState.AddModelError("SuccessMessage", "Login Success");
+                ModelState.AddModelError("SuccessMessage", "The details are correct");
             }
 
             return View(model);

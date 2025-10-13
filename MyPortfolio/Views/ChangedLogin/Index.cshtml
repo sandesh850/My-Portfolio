@@ -1,0 +1,27 @@
+﻿
+@{
+    @model MyPortfolio.Models.ViewModels.ChangeLoginViewModel
+}
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <span asp-validation-for="ErrorMessage" class="text-danger" style="font-size:160%"></span>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <span asp-validation-for="ConfirmPWAndPWCheckingMessage" class="text-danger" style="font-size:160%"></span>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <span asp-validation-for="Mgsuccess" style="font-size:160%;color:aqua" class="fw-bold"></span><br />
+            <span asp-validation-for="Mgsuccess02" style="color:white;font-size:120%" ></span>
+        </div>
+    </div>
+</div>
+
