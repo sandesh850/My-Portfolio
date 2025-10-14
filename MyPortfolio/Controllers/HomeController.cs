@@ -18,10 +18,30 @@ namespace MyPortfolio.Controllers
             return View();
         }
 
+        [HttpGet]
         public IActionResult Contact()
         {
-            return View();
+            return View(new ContactViewModel());
         }
+
+
+        [HttpPost]
+        public IActionResult Contact(ContactViewModel model)
+        {
+
+            if(!ModelState.IsValid)
+            {
+                return View(model);
+            }
+            else
+            {
+                return RedirectToAction("Index","Home");
+            }
+
+                
+        }
+
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

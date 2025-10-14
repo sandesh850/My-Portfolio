@@ -1,109 +1,117 @@
 ﻿@{
     ViewData["Title"] = "Privacy Policy";
+    @model MyPortfolio.Models.ViewModels.ContactViewModel
 }
 
-<div class="container">
+<form asp-action="Contact" method="post">
 
-    <!--Main row | row 01-->
-    <div class="row">
+    <div class="container">
 
-        <!--left-->
-        <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6" style="padding-top:10%">
+        <!--Main row | row 01-->
+        <div class="row">
 
-            <label class="fw-bold" style="font-size:200%;color:aqua">Email</label><br />
-            <label class="fw-bold" style="font-size:150%;color:white">sandeshpiumantha52@gmail.com</label>
+            <!--left-->
+            <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6" style="padding-top:10%">
 
-            <br />
+                <label class="fw-bold" style="font-size:200%;color:aqua">Email</label><br />
+                <label class="fw-bold" style="font-size:150%;color:white">sandeshpiumantha52@gmail.com</label>
 
-            <label class="fw-bold" style="font-size:200%;color:aqua">Phone number</label><br />
-            <label class="fw-bold" style="font-size:150%;color:white">+94 77 1634350</label>
+                <br />
 
-            <br />
+                <label class="fw-bold" style="font-size:200%;color:aqua">Phone number</label><br />
+                <label class="fw-bold" style="font-size:150%;color:white">+94 77 1634350</label>
 
-            <a href="https://wa.me/94771634350" target="_blank" style="padding-top:2%">
-               <label type="button" class="btn btn-success fw-bold" style="background-color:aqua;color:black">Send message</label>
+                <br />
 
-            </a>
+                <a href="https://wa.me/94771634350" target="_blank" style="padding-top:2%">
+                    <label type="button" class="btn btn-success fw-bold" style="background-color:aqua;color:black">Send message</label>
 
-            <!--The commented code is optional one. It use to send message with default message-->
-           @*  <a href="https://wa.me/94771634350?text=Hello,sandesh" target="_blank" style="padding-top:2%">
+                </a>
+
+                <!--The commented code is optional one. It use to send message with default message-->
+                @*  <a href="https://wa.me/94771634350?text=Hello,sandesh" target="_blank" style="padding-top:2%">
                 <label type="button" class="btn btn-success fw-bold" style="background-color:aqua;color:black">Send message</label>
 
             </a> *@
 
-        </div>
-
-        <!--right-->
-        <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6" style="margin-top:5%;color:aqua">
-
-            <!--Full name row-->
-            <div class="row" style="padding-top:2%">
-
-                <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-
-                    <div>
-                        <label class="fw-bold">Full name</label>
-                    </div>
-
-                    <div style="padding-top:1%">
-                        <input type="text" placeholder="Full name" class="form-control" />
-                    </div>
-                   
-                    
-                </div>
-               
             </div>
 
-            <!--Contact no row-->
-            <div class="row" style="padding-top:2%">
+            <!--right-->
+            <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6" style="margin-top:5%;color:aqua">
 
-                <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                <!--Full name row-->
+                <div class="row" style="padding-top:2%">
 
-                    <div>
-                        <label class="fw-bold">Your Contact number</label>
+                    <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+
+                        <div>
+                            <label class="fw-bold">Full name</label>
+                        </div>
+
+                        <div style="padding-top:1%">
+                            <input type="text" asp-for="FullName" placeholder="Full name" class="form-control" />
+                            <span asp-validation-for="FullName" class="text-danger"></span>
+                        </div>
+
+
                     </div>
-
-                    <div style="padding-top:1%">
-                        <input type="text" placeholder="Your Contact number" class="form-control" />
-                    </div>
-
 
                 </div>
 
-            </div>
+                <!--Contact no row-->
+                <div class="row" style="padding-top:2%">
 
-            <!--message row-->
-            <div class="row" style="padding-top:2%">
+                    <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
 
-                <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                        <div>
+                            <label class="fw-bold">Your Contact number</label>
+                        </div>
 
-                    <div>
-                        <label class="fw-bold">Message</label>
+                        <div style="padding-top:1%">
+                            <input type="text" asp-for="ContactNo" placeholder="Your Contact number" class="form-control" />
+                            <span asp-validation-for="ContactNo" class="text-danger"></span>
+                        </div>
+
+
                     </div>
-
-                    <div style="padding-top:1%">
-                        <textarea rows="4" style="resize:none" placeholder="Message" class="form-control"></textarea>
-                    </div>
-
 
                 </div>
 
-            </div>
+                <!--message row-->
+                <div class="row" style="padding-top:2%">
 
-            <!--btn send-->
-            <div class="row" style="margin-top:3%">
+                    <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
 
-                <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                    <button type="submit" class="btn btn-success fw-bold" style="font-size:120%;background-color:aqua;color:black;width:100%">
-                        Send
-                    </button>
+                        <div>
+                            <label class="fw-bold">Message</label>
+                        </div>
+
+                        <div style="padding-top:1%">
+                            <textarea rows="4" asp-for="Message" style="resize:none" placeholder="Message" class="form-control"></textarea>
+                            <span asp-validation-for="Message" class="text-danger"></span>
+                        </div>
+
+
+                    </div>
+
                 </div>
 
+                <!--btn send-->
+                <div class="row" style="margin-top:3%">
+
+                    <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                        <button type="submit" class="btn btn-success fw-bold" style="font-size:120%;background-color:aqua;color:black;width:100%">
+                            Send
+                        </button>
+                    </div>
+
+                </div>
+
+
             </div>
-           
 
         </div>
 
     </div>
+</form>
 
-</div>
