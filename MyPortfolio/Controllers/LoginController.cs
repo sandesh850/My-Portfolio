@@ -1,10 +1,20 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using MyPortfolio.Data;
 using MyPortfolio.Models.ViewModels;
+using Microsoft.AspNetCore.Http;
 
 namespace MyPortfolio.Controllers
 {
     public class LoginController : Controller
     {
+        // DPI
+        private readonly AppDb _AppDb;
+
+        public LoginController(AppDb appDb)
+        {
+            _AppDb = appDb;
+        }
+
         [HttpGet]
         public IActionResult Index()
         {
@@ -18,8 +28,34 @@ namespace MyPortfolio.Controllers
             {
                 return View(Model);
             }
+            else
+            {
+                var TblLogin = _AppDb.TblLogins.ToList();
 
-            return RedirectToAction("Index","Home");
+                string? Username = null;
+                string? password = null;
+
+                if (TblLogin != null)
+                {
+                    Username = TblLogin[0].UserName;
+                    password = TblLogin[0].Password;
+                }
+
+                if(Model.TbxUserName == Username && Model.TbxPassword == password)
+                {
+                    HttpContext.Session.SetString("Login","true");
+                    return RedirectToAction("Index", "Home");
+                }
+                else
+                {
+                    ModelState.AddModelError("ErrorMg", "Incorrect username or password");
+                    return View(Model);
+                }
+
+                
+            }
+
+                
 
             ///
             /// The following code is correct, but it used for testing

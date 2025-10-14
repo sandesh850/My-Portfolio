@@ -54,7 +54,7 @@
 
                         <!--tbxPassword-->
                         <div style="padding-top:2%">
-                            <input type="text" asp-for="TbxNewPassword" style="width:100%" class="form-control" placeholder="Password" />
+                            <input type="password" asp-for="TbxNewPassword" style="width:100%" class="form-control" placeholder="Password" />
                             <span asp-validation-for="TbxNewPassword" class="text-danger"></span>
                         </div>
                     </div>
@@ -71,7 +71,7 @@
 
                         <!--tbxConfirmPassword-->
                         <div style="padding-top:2%">
-                            <input type="text" style="width:100%" asp-for="TbxConfirmPassword" class="form-control" placeholder="Confirm Password" />
+                            <input type="password" style="width:100%" asp-for="TbxConfirmPassword" class="form-control" placeholder="Confirm Password" />
                             <span asp-validation-for="TbxConfirmPassword" class="text-danger"></span>
                         </div>
                     </div>
@@ -92,6 +92,7 @@
                             Save
                         </button>
                         <span asp-validation-for="MsgPasswordChecking" class="text-danger"></span>
+                        <span asp-validation-for="ErrorMessageIfLoginExist" class="text-danger"></span>
                     </div>
                 </div>
 

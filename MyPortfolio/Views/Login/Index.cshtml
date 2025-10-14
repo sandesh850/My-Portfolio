@@ -55,7 +55,7 @@
 
                         <!--tbxPassword-->
                         <div style="padding-top:2%">
-                            <input type="text" style="width:100%" asp-for="TbxPassword" class="form-control" placeholder="Password" />
+                            <input type="password" style="width:100%" asp-for="TbxPassword" class="form-control" placeholder="Password" />
                             <span asp-validation-for="TbxPassword" class="text-danger"></span>
                         </div>
                     </div>
@@ -75,6 +75,7 @@
                                 style="width:100%;color:black;border-radius:25px;background-color:aqua;font-size:120%;font-weight:bold">
                             Login
                         </button>
+                        <span asp-validation-for="ErrorMg" class="text-danger"></span>
                     </div>
                 </div>
 

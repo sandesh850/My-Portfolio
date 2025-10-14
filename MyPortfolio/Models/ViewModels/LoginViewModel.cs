@@ -9,5 +9,7 @@ namespace MyPortfolio.Models.ViewModels
 
         [Required(ErrorMessage ="Please Enter the Password")]
         public string? TbxPassword { get; set; }
+
+        public string? ErrorMg { get; set; }
     }
 }

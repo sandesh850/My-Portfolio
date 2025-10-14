@@ -14,5 +14,7 @@ namespace MyPortfolio.Models.ViewModels
         public string? TbxConfirmPassword { get; set; }
 
         public string? MsgPasswordChecking {  get; set; }
+
+        public string? ErrorMessageIfLoginExist { get; set; }
     }
 }
