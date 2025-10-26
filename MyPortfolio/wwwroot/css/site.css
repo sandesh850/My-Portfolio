@@ -42,12 +42,15 @@ body {
 }
 
 .IndexPageCard {
+
     border: solid;
     background-color: lightcyan;
     border-color: lavender;
     border-radius: 25px;
     color: black;
     transition: 1s;
+    height:100%
+   
 }
 
 .IndexPageCard:hover{

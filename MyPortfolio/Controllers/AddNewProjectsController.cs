@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Http.Metadata;
 using Microsoft.AspNetCore.Mvc;
 using MyPortfolio.Models.ViewModels;
-using Microsoft.AspNetCore.Mvc;
-using MyPortfolio.Models.ViewModels;
+//using Microsoft.AspNetCore.Mvc;
+//using MyPortfolio.Models.ViewModels;
 using MyPortfolio.Data;
 using MyPortfolio.Models.EntityModels;
 using System.Threading.Tasks;

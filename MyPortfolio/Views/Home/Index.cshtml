@@ -1,5 +1,7 @@
-﻿@{
+﻿@model MyPortfolio.Models.ViewModels.HomeViewModel
+@{
     ViewData["Title"] = "Home Page";
+  
 }
 
 
@@ -56,20 +58,30 @@
     <div class="row" style="margin-top:5%">
 
         <!--Left-->
-        <div class="col-12 col-md-6 col-lg-6 col-xl-16 col-xxl-6">
-            <div class="IndexPageCard" style="padding-left:3%">
+        @foreach (var data in Model.TblPersonal_Project_Details)
+        {
+            <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6" style="margin-top:1%">
+                <div class="IndexPageCard" style="padding-left:3%">
 
-                <label style="font-size:200%;font-weight:bold;">Project Name</label><br />
-                <p> This is my POS project that create for small and medium size businesses<br />
-                    In this project I use SQL, Windows form, C# and .NET Frameword 4.8.
-                </p>
+                    <div>
+                        <label style="font-size:200%;font-weight:bold;">@data.ProjectName</label>
+                    </div>
+                   
+                    <div>
+                        <p>
+                            @data.ProjectDescription
+                        </p>
+                    </div>
+                   
 
+                </div>
             </div>
-        </div>
+        }
+       
 
        
         <!--right-->
-        <div class="col-12 col-md-6 col-lg-6 col-xl-16 col-xxl-6">
+       @*  <div class="col-12 col-md-6 col-lg-6 col-xl-16 col-xxl-6">
             <div class="IndexPageCard" style="padding-left:3%">
 
                 <label style="font-size:200%;font-weight:bold;">Project Name</label><br />
@@ -79,7 +91,7 @@
                 </p>
 
             </div>
-        </div>
+        </div> *@
 
     </div>
 
@@ -97,7 +109,7 @@
     <div class="row" style="margin-top:5%">
 
         <!--Left-->
-        <div class="col-12 col-md-6 col-lg-6 col-xl-16 col-xxl-6">
+        <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
 
             <div class="IndexPageSkillsAreaText">
                 <ul>
@@ -118,7 +130,7 @@
 
 
         <!--right-->
-        <div class="col-12 col-md-6 col-lg-6 col-xl-16 col-xxl-6">
+        <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
 
             <div class="IndexPageSkillsAreaText">
                 <ul>

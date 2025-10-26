@@ -1,6 +1,9 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using MyPortfolio.Data;
+using MyPortfolio.Models.EntityModels;
 using MyPortfolio.Models.ViewModels;  
+using System.Diagnostics;
 
 namespace MyPortfolio.Controllers
 {
@@ -8,19 +11,40 @@ namespace MyPortfolio.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        //public HomeController(ILogger<HomeController> logger)
+        //{
+        //    _logger = logger;
+        //}
+
+        // My DPI
+        private readonly AppDb _AppDb;
+
+        public HomeController(ILogger<HomeController> logger, AppDb appDb)
         {
             _logger = logger;
+            _AppDb = appDb;
         }
 
+
+        [HttpGet]
         public IActionResult Index()
         {
-            return View();
+
+            var model = new HomeViewModel
+            {
+                TblPersonal_Project_Details = _AppDb.TblPersonal_Project_Details.ToList()
+            };
+            
+
+            return View(model);
         }
+
+       
 
         [HttpGet]
         public IActionResult Contact()
         {
+
             return View(new ContactViewModel());
         }
 
