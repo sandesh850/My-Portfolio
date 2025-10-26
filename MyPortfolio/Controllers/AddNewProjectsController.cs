@@ -3,11 +3,22 @@ using Microsoft.AspNetCore.Mvc;
 using MyPortfolio.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using MyPortfolio.Models.ViewModels;
+using MyPortfolio.Data;
+using MyPortfolio.Models.EntityModels;
+using System.Threading.Tasks;
 
 namespace MyPortfolio.Controllers
 {
     public class AddNewProjectsController : Controller
     {
+        //DPI
+        private readonly AppDb _AppDb;
+
+        public AddNewProjectsController(AppDb appDb)
+        {
+            _AppDb = appDb;
+        }
+
         [HttpGet]
         public IActionResult Index()
         {
@@ -15,7 +26,7 @@ namespace MyPortfolio.Controllers
         }
 
         [HttpPost]
-        public IActionResult Index(AddNewProjectsViewModel Model)
+        public async Task<IActionResult> Index(AddNewProjectsViewModel Model)
         {
             if(!ModelState.IsValid)
             {
@@ -23,6 +34,15 @@ namespace MyPortfolio.Controllers
             }
             else
             {
+                var TblPersonalProjectsDetails = new TblPersonal_Project_Details
+                {
+                    ProjectName = Model.TbxProjectName,
+                    ProjectDescription = Model.TbxDescription
+                };
+
+                _AppDb.TblPersonal_Project_Details.Add(TblPersonalProjectsDetails);
+                await _AppDb.SaveChangesAsync();
+
                 return RedirectToAction("Index","Home");
             }    
         }
