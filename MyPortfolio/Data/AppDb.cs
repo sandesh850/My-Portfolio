@@ -15,5 +15,7 @@ namespace MyPortfolio.Data
         public DbSet<TblPersonal_Project_Details> TblPersonal_Project_Details { get; set; }
 
         public DbSet<TblServices_Details> TblServices_Details { get; set; }
+
+        public DbSet<TblContact> TblContacts { get; set; }
     }
 }

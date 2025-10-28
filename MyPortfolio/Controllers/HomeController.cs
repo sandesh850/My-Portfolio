@@ -4,6 +4,7 @@ using MyPortfolio.Data;
 using MyPortfolio.Models.EntityModels;
 using MyPortfolio.Models.ViewModels;  
 using System.Diagnostics;
+using System.Threading.Tasks;
 
 namespace MyPortfolio.Controllers
 {
@@ -19,6 +20,7 @@ namespace MyPortfolio.Controllers
         // My DPI
         private readonly AppDb _AppDb;
 
+        // Constructor
         public HomeController(ILogger<HomeController> logger, AppDb appDb)
         {
             _logger = logger;
@@ -50,7 +52,7 @@ namespace MyPortfolio.Controllers
 
 
         [HttpPost]
-        public IActionResult Contact(ContactViewModel model)
+        public async Task<IActionResult> Contact(ContactViewModel model)
         {
 
             if(!ModelState.IsValid)
@@ -59,6 +61,16 @@ namespace MyPortfolio.Controllers
             }
             else
             {
+                var TblContacts = new TblContact
+                {
+                    Full_Name = model.FullName,
+                    ContactNO = model.ContactNo,
+                    message = model.Message
+                };
+
+                _AppDb.TblContacts.Add(TblContacts);
+                await _AppDb.SaveChangesAsync();
+
                 return RedirectToAction("Index","Home");
             }
 
