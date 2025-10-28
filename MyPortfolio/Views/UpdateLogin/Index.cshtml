@@ -1,4 +1,5 @@
-﻿
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor httpContextAccessor
 @{
     @model MyPortfolio.Models.ViewModels.ExistingAndNewLoginViewModel
     
@@ -20,11 +21,16 @@
         </div>
     </div>
 
-    <div class="row">
-        <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-            <a class="btn btn-primary" style="text-decoration:none" data-bs-toggle="modal" data-bs-target="#newLogins">Add New Login</a>
+    @if (httpContextAccessor.HttpContext?.Session.GetString("UpdateModal") == "true")
+    {
+        <!--Btn-->
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                <a class="btn btn-primary" style="text-decoration:none" data-bs-toggle="modal" data-bs-target="#newLogins">Add New Login</a>
+            </div>
         </div>
-    </div>
+    }
+  
 
 </div>
 

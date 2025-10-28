@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using MyPortfolio.Models.EntityModels;
+using System.ComponentModel.DataAnnotations;
 
 namespace MyPortfolio.Models.ViewModels
 {
@@ -14,7 +15,16 @@ namespace MyPortfolio.Models.ViewModels
 
         public string? SuccessMessage { get; set; }
 
+        // This list use to check existing login details with user input details
+        public List<TblLogin> LstExistingLogin { get; set; } = new List<TblLogin>();
 
-       
+
+        [Required]
+        public string? New_username { get; set; }
+
+        [Required]
+        public string? New_password { get; set; }
+
+
     }
 }
