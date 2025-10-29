@@ -1,5 +1,6 @@
 ﻿using Azure.Core;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using MyPortfolio.Data;
 using MyPortfolio.Models.EntityModels;
 using MyPortfolio.Models.ViewModels;
@@ -25,9 +26,13 @@ namespace MyPortfolio.Controllers
             return View(new ChangeLoginViewModel());
         }
 
+        public List<TblLogin>? current_login { get; set; } = new();
+
         [HttpPost]
-        public async Task<IActionResult> Index(ChangeLoginViewModel model)
+        public async Task<IActionResult> Index(ChangeLoginViewModel model,ExistingAndNewLoginViewModel model02)
         {
+            
+
             string? changeUsername = Request.Form["tbxChangeUsername"];
             string? changePassword = Request.Form["tbxchangePassword"];
             string? CMP = Request.Form["tbxCmonfirmPW"];
@@ -42,15 +47,14 @@ namespace MyPortfolio.Controllers
             }
             else
             {
-                var tblLogin = new TblLogin
-                {
-                    UserName = changeUsername,
-                    Password = changePassword
-                };
 
-                _AppDb.TblLogins.Update(tblLogin);
+                current_login = _AppDb.TblLogins.ToList();
+
+                current_login[0].UserName = changeUsername;
+                current_login[0].Password = changePassword;
+
                 await _AppDb.SaveChangesAsync();
-
+               
                 ModelState.AddModelError("Mgsuccess", "SUCCESS");
                 ModelState.AddModelError("Mgsuccess02", "Login Details are successfully updated");
             }

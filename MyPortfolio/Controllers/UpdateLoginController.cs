@@ -26,21 +26,26 @@ namespace MyPortfolio.Controllers
         [HttpPost]
         public IActionResult Index(ExistingAndNewLoginViewModel model)
         {
+            // This list use to check existing login details with user input details
+            List<TblLogin> LstExistingLogin = new List<TblLogin>();
+
+
+
             if (!ModelState.IsValid)
             {
                 ModelState.AddModelError("Message", "Please Enter the all details (username/password)");
             }
             else
             {
-                model.LstExistingLogin = _AppDb.TblLogins.ToList();
+                LstExistingLogin = _AppDb.TblLogins.ToList();
 
                 string? Username = null;
                 string? password = null;
 
-                if (model.LstExistingLogin != null)
+                if (LstExistingLogin != null)
                 {
-                    Username = model.LstExistingLogin[0].UserName;
-                    password = model.LstExistingLogin[0].Password;
+                    Username = LstExistingLogin[0].UserName;
+                    password = LstExistingLogin[0].Password;
                 }
 
                 if(model.current_username  == Username && model.current_password == password)
@@ -50,6 +55,7 @@ namespace MyPortfolio.Controllers
                 }
                 else
                 {
+                    HttpContext.Session.SetString("UpdateModal", "false");
                     ModelState.AddModelError("Message", "Incorrect Username or Password");
                 }
 
