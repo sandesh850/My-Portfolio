@@ -31,7 +31,10 @@ namespace MyPortfolio.Controllers
         [HttpPost]
         public async Task<IActionResult> Index(ChangeLoginViewModel model,ExistingAndNewLoginViewModel model02)
         {
-            
+
+            ///
+            /// Use to update login details
+            /// 
 
             string? changeUsername = Request.Form["tbxChangeUsername"];
             string? changePassword = Request.Form["tbxchangePassword"];
