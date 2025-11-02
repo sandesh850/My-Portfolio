@@ -35,15 +35,23 @@ namespace MyPortfolio.Controllers
                 string? Username = null;
                 string? password = null;
 
-                if (TblLogin != null)
+                
+                if (TblLogin != null && TblLogin.Count > 0)
                 {
                     Username = TblLogin[0].UserName;
                     password = TblLogin[0].Password;
                 }
-
-                if(Model.TbxUserName == Username && Model.TbxPassword == password)
+                else
                 {
-                    HttpContext.Session.SetString("Login","true");
+                    ModelState.AddModelError("ErrorMg", "Please add the login");
+
+                    return RedirectToAction("Index", "AddLogin");
+                }
+
+
+                if (Model.TbxUserName == Username && Model.TbxPassword == password)
+                {
+                    HttpContext.Session.SetString("Login", "true");
                     return RedirectToAction("Index", "Home");
                 }
                 else
